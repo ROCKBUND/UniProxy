@@ -89,8 +89,8 @@ func GetSingBoxConfig(uuid string, server *v2b.ServerInfo) (option.Options, erro
 			out.VMessOptions = option.VMessOutboundOptions{
 				UUID:                uuid,
 				Security:            "auto",
-				AuthenticatedLength: true,
-				Network:             "tcp",
+				//AuthenticatedLength: true,
+				//Network:             "tcp",
 				ServerOptions:       so,
 				Transport:           transport,
 			}
